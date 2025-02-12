@@ -38,11 +38,11 @@ Al procesar una imagen de pasaporte, PassportOCR devuelve un JSON con la siguien
 
 1. Clona este repositorio:
 2. Instala las dependencias:
-    ```json
+    ```bash
     pip install -r requirements.txt
     ```
 3. Configura el archivo .env colocando tu clave de API de OpenAI:
-    ```json
+    ```bash
     echo "API_KEY=tu_api_key" > .env
     ```
 
