@@ -51,7 +51,7 @@ Al procesar una imagen de pasaporte, PassportOCR devuelve un JSON con la siguien
 ### Código de Ejemplo
 
 ```python
-from PassportOCR import PassportOCR
+from passport_ocr import PassportOCR
 
 passport_ocr = PassportOCR()
 
