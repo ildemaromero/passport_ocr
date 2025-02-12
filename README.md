@@ -8,16 +8,16 @@ Este proyecto es útil para automatizar la lectura de datos de pasaportes, como 
 ## Ejemplo de Salida
 Al procesar una imagen de pasaporte, PassportOCR devuelve un JSON con la siguiente estructura:
 
-```json
+```python
 {
-  "first_name": "Roxon",
-  "last_name": "Ortiz Molina",
-  "passport_number": "138673602",
+  "first_name": "John",
+  "last_name": "Doe",
+  "passport_number": "123456789",
   "nationality": "Venezuelan",
-  "issue_date": "2016-08-16",
-  "expiration_date": "2021-08-15",
-  "place_of_birth": "Ciudad Ojeda, Venezuela",
-  "date_of_birth": "1991-04-20",
+  "issue_date": "2020-01-01",
+  "expiration_date": "2030-01-01",
+  "place_of_birth": "Caracas, Venezuela",
+  "date_of_birth": "1990-01-01",
   "gender": "M",
   "passport_country": "VEN"
 }
